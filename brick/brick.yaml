@@ -1,0 +1,26 @@
+name: flutter_app_brick
+description: A flutter app brick.
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.38 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Name
+    default: flutter_app
+    prompt: Project name?
+
+  desc:
+    type: string
+    description: Description
+    default: A new Flutter project.
+    prompt: Project description?
+
+  org:
+    type: string
+    description: Organization
+    default: com.example
+    prompt: Project Organization?
